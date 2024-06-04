@@ -296,7 +296,7 @@ Providing guidance and feedback with the internal App Development team on system
   {
     date: 'January 2023 - April 2024',
     location: 'Datadog',
-    title: 'Senior Technical solutions Engineer',
+    title: 'Senior Technical Solutions Engineer',
     content: (
       <p>
 Provided Datadog customer’s technical support for implementing the Datadog solution into their environments. Extensive suport with the Datadog Agent and the many (600+) integrations that Datadog platform supports.
@@ -309,14 +309,93 @@ Led office hours for other solutions engineers to provide them guidance and assi
   },
   {
     date: 'January 2021 - December 2022',
-    location: 'Datadog',
-    title: 'Senior Technical solutions Engineer',
+    location: 'Consilio',
+    title: 'Application Support Engineer',
     content: (
       <p>
 Provided Application Support to numerous internal and client facing applications.Supported companies eDiscovery platforms such as Relativity, Reltivity one, Venio 
 Maintained application documentation and how to guides for end users and external users. Performed routine maintenance and application updates on maintenance windows and planned outages
 Systems infrastructure for these applications included Windows Server, RedHat Linux, Webserver technologies likes IIS,Apache Tomcat. Collaborated with the Application support team members (roughly 2 dozen engineers)
 Engaged company technology departments such as Database Administration, Network Administration, Systems Administration, and Helpdesk to provided cross collaboration and support. Became subject matter expert for a few applications like Venio, Recenseo and Relativity and RelativityOne
+      </p>
+    ),
+  },
+  {
+    date: 'January 2020 - December 2021',
+    location: 'Legility',
+    title: 'Application Support Specialist',
+    content: (
+      <p>
+Supported other IT departments environments including servers, networking, virtualization platforms (VMWare & Hyper-V) storage and helpdesk team
+Maintained Company wide SaaS applications such as Microsoft Office 365, Zoom, SpamTitan, Intune, IBM Maas360, and others.
+Worked with SaaS vendors to provide company wide support for SaaS applications.
+Became a point of escalation and subject matter expert (SME) for these applications by troubleshooting issues like performance latency, application bottlenecks and
+Assisted Security Team with Audits for SOC2 and IS9001 compliance with Security questions and security evidence.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2018 - December 2019',
+    location: 'Inventus',
+    title: 'Systems Engineer',
+    content: (
+      <p>
+Member of the Global IT Infrastructure Team. Supported the local NYC office with IT task such as desktop Management, Network administration, Physical Security and Helpdesk.
+Supported multiple company environments local and abroad including Managed Service Environments. Performed routine maintenance checks and system patches on systems.
+Also worked on supporting the company's eDiscovery platforms and systems. Provided support to DevOps team for optimizing internal applications and systems
+Assisted Security team with questionnairesMember of the Global IT Infrastructure Team. Supported the local NYC office with IT task such as desktop Management, Network administration, 
+Physical Security and Helpdesk. Supported multiple company environments local and abroad including Managed Service Environments Performed routine maintenance checks and system patches on systems. 
+Also worked on supporting the company's eDiscovery platforms and systems. 
+Provided support to DevOps team for optimizing internal applications and systems Assisted Security team with questionnaires
+      </p>
+    ),
+  },
+  {
+    date: 'November 2013 - August 2018',
+    location: 'George Jon & Associates',
+    title: 'Information Technology Support Analyst & Systems Engineer',
+    content: (
+      <p>
+Worked in a highly dynamic fast paced environment as a Systems analyst and Helpdesk technician concentrating on Clustered SQL Servers and e-discovery using kCura's Relativity platform.
+I maintain Relativity from importing, archiving and troubleshooting Relativity issues and setting up new instances of databases and environments.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2012 - October 2013',
+    location: 'George Jon & Associates',
+    title: 'IT Support Analyst & Systems Engineer',
+    content: (
+      <p>
+Quality Assurance Engineer for Data Protection products including vRanger.
+Wrote and executed quality assurance test plans.
+Provided customer support team escalation support for any software related issues.
+Led QA sprints and scrums
+Gave input to optimize QA workflows
+Worked under tight deadlines and followed company SDLC guidelines 
+      </p>
+    ),
+  },
+  {
+    date: 'March 2009 - September 2012',
+    location: 'Quest Software',
+    title: 'Quality Assurance Engineer',
+    content: (
+      <p>
+Part of a small integrated team that gets our solution deployed to customer by testing handsets and getting end product to user.
+Under Deployment: wrote test plans and documentation for released products, go on-site to test and work with customer to install and deploy Novarra’s software into the carriers network and have it deployed to end user.
+Under QA: Performed load run tests on server product conducted quality assurance (QA) tests of end user product J2ME and BREW platforms and diagnosed and reported visual and system problems on cellular phone devices. Made sure that product was approved to be released to customer(s). Maintained Linux servers and test lab.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2005 - December 2008',
+    location: 'Novarra',
+    title: 'Quality Assurance Deployment Engineer',
+    content: (
+      <p>
+As part Vizioncore Inc. offers a full range of strategic software solutions that allow you to oversee and enhance the performance of virtualized environments. Vizioncore products are simple to use and cost effective, yet offer sophisticated functionality to address the challenges of P2V/V2V conversions, disaster recovery, storage optimization, process automation and provisioning, and performance monitoring and chargeback.
+Was responsible for the quality assurance in the Data Protection group. Worked especially on the quality of vRanger Pro product as well as functionality with other server grade products like Exchange and SQL Active Directory.
       </p>
     ),
   },
