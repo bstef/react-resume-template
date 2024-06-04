@@ -106,12 +106,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'New York, NY', Icon: MapIcon},
+    {label: 'Age', text: '41', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Romanian / American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Photography, Traveling, Exploring local spots', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Illinois at Chicago', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'JP Morgan', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -127,8 +127,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Romanian',
+        level: 10,
       },
       {
         name: 'Spanish',
@@ -266,9 +266,9 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'May 2007',
+    location: 'University of Illinois at Chicago',
+    title: 'Bachelor of Science in Eletrical Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
@@ -281,24 +281,42 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2024 - Present',
+    location: 'JP Morgan',
+    title: 'Senior Infrastrucutre Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+Supporting the organization's Employee Platforms as an Infrastructure Engineer by maintaining the company's communication and collaboration systems such as Zoom, Adobe Connect, Cisco Call Manager, and other Enterprise Video & Voice platforms for all of JPMorgan employees (~300k).
+Assisting the Communication and Collaboration Product Managers and Platform Owners by making sure the platforms follow their respective timelines.
+Providing assistance and support for the SaaS applications by maintaining documentation, system patches.
+Providing guidance and feedback with the internal App Development team on system architecture and design input as well as user experience excellence.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2023 - April 2024',
+    location: 'Datadog',
+    title: 'Senior Technical solutions Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+Provided Datadog customer’s technical support for implementing the Datadog solution into their environments. Extensive suport with the Datadog Agent and the many (600+) integrations that Datadog platform supports.
+Provided expertise knowledge on Microsoft Windows platform and how customers can integrate Datadog monitoring using that Operating System.
+Created escalations for the software engineering team to review and related issues or bugs.
+Updated documentation internal and external for clarity and knowledge share.
+Led office hours for other solutions engineers to provide them guidance and assistance with their customer issues.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2021 - December 2022',
+    location: 'Datadog',
+    title: 'Senior Technical solutions Engineer',
+    content: (
+      <p>
+Provided Application Support to numerous internal and client facing applications.Supported companies eDiscovery platforms such as Relativity, Reltivity one, Venio 
+Maintained application documentation and how to guides for end users and external users. Performed routine maintenance and application updates on maintenance windows and planned outages
+Systems infrastructure for these applications included Windows Server, RedHat Linux, Webserver technologies likes IIS,Apache Tomcat. Collaborated with the Application support team members (roughly 2 dozen engineers)
+Engaged company technology departments such as Database Administration, Network Administration, Systems Administration, and Helpdesk to provided cross collaboration and support. Became subject matter expert for a few applications like Venio, Recenseo and Relativity and RelativityOne
       </p>
     ),
   },
