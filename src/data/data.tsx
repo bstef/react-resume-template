@@ -76,8 +76,7 @@ export const heroData: Hero = {
         I am a Technology Evangelist & Systems Engineer with extensive Technical Support knowledge & experience. In other words…I am what some people may call a "Jack-of-all trades" technologist!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me enjoyiing time exploring <strong className="text-stone-100">NYC</strong> and all that it offers ,
-        plucking my <strong className="text-stone-100">banjo</strong>, or traveling the {' '}
+        In my free time time, you can catch me enjoyiing time exploring <strong className="text-stone-100">NYC</strong> and all that it offers including bagels and coffee,working on <strong className="text-stone-100">Tech Stuff</strong>, or traveling the {' '}
         <strong className="text-stone-100">world</strong>  with my wife!
       </p>
     </>
@@ -102,9 +101,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `With over 18 years of experience in Technical Support and Information Technology, I am passionate about leveraging my skills to solve complex technical issues and enhance user experiences. My expertise spans across troubleshooting, system administration, network management, and customer service, making me a versatile and reliable IT professional.
+`,
   aboutItems: [
     {label: 'Location', text: 'New York, NY', Icon: MapIcon},
     {label: 'Age', text: '41', Icon: CalendarIcon},
@@ -137,48 +135,48 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Technical Support',
     skills: [
       {
-        name: 'React',
+        name: 'Troubleshooting & Triage',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Optimization',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Configuration',
+        level: 9,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'System Administration',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Network',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Systems Configuration',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'Resiliency',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Customer Service',
     skills: [
       {
-        name: 'React Native',
+        name: 'Documentation',
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'Personable',
         level: 4,
       },
       {
