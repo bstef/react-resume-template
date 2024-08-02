@@ -66,7 +66,10 @@ Of course, all of the code is there and nothing is hidden from you so if you wou
 
 Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
 
-## Project Created & Maintained By
+### 8. Deploy using AWS Amplify
+You can fork this repository and deploy the website using AWS Amplify service. It is what I used to deploy this site. follow the guide and instructions [here.]((https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html))
+
+## Project Created & Maintained By:
 
 ### Tim Baker
 
