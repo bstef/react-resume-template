@@ -267,14 +267,9 @@ export const education: TimelineItem[] = [
     date: 'May 2007',
     location: 'University of Illinois at Chicago',
     title: 'Bachelor of Science in Eletrical Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Studied core subjects including Circuit Analysis, Control Systems, Electromagnetics, Digital Signal Processing, Power Systems, and Microelectronics</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
 ];
 
 export const experience: TimelineItem[] = [
