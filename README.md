@@ -1,4 +1,4 @@
-# React JS Resume Website Template
+# React based Resume Website Template
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
@@ -16,7 +16,7 @@
 
 <img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
 
-## React based template for software developer-focused resume websites
+## Create your own Resume website using this React based template!
 
 </div>
 
