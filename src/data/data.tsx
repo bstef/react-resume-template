@@ -269,7 +269,6 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Eletrical Engineering',
     content: <p>Studied core subjects including Circuit Analysis, Control Systems, Electromagnetics, Digital Signal Processing, Power Systems, and Microelectronics</p>,
   },
-  {
 ];
 
 export const experience: TimelineItem[] = [
