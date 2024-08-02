@@ -189,7 +189,7 @@ export const skills: SkillGroup[] = [
 
 /**
  * Portfolio section
- */
+
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
@@ -258,7 +258,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage11,
   },
 ];
-
+ */
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
