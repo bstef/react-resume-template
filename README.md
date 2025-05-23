@@ -1,4 +1,5 @@
 # React based Resume Website Template
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v3/monitor/1gquk.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
