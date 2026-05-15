@@ -88,7 +88,7 @@ export const aboutData: About = {
   description: `Infrastructure and systems engineering professional with 20+ years of experience across enterprise environments, e-Discovery platforms, and cloud-based observability solutions. Proven ability to design, deploy, and support complex systems at scale while driving cross-functional collaboration, documentation standards, and customer satisfaction.`,
   aboutItems: [
     {label: 'Location', text: 'Little Falls, NJ', Icon: MapIcon},
-    {label: 'Age', text: '41', Icon: CalendarIcon},
+    {label: 'Age', text: '43', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Romanian / American', Icon: FlagIcon},
     {label: 'Interests', text: 'Photography, Traveling, Exploring local spots', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Illinois at Chicago', Icon: AcademicCapIcon},
@@ -286,7 +286,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'benjaminstef@gmail.com',
+      text: 'Send me an email',
       href: 'mailto:benjaminstef@gmail.com',
     },
     {
