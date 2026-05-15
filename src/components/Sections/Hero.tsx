@@ -14,7 +14,7 @@ const Hero: FC = memo(() => {
     <Section noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
-          alt={`${name}-image`}
+          alt="Top of the Rock at Dusk — NYC skyline viewed from Rockefeller Plaza, photographed by Bobby Stef"
           className="absolute z-0 h-full w-full object-cover"
           placeholder="blur"
           priority
@@ -50,6 +50,13 @@ const Hero: FC = memo(() => {
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
         </div>
+        <a
+          className="absolute bottom-2 right-3 text-xs text-white/50 hover:text-white/90 transition-colors"
+          href="https://unsplash.com/photos/tp14k-3OOhg"
+          rel="noopener noreferrer"
+          target="_blank">
+          Photo by Bobby Stef on Unsplash
+        </a>
       </div>
     </Section>
   );
