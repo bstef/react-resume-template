@@ -101,71 +101,59 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: '☁️ Cloud & Infrastructure',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Romanian',
-        level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+      {name: 'AWS', level: 8},
+      {name: 'Azure', level: 7},
+      {name: 'Google Cloud (GCP)', level: 6},
+      {name: 'Terraform / IaC', level: 7},
+      {name: 'VMware vSphere', level: 9},
     ],
   },
   {
-    name: 'Technical Support',
+    name: '📡 Observability & Monitoring',
     skills: [
-      {
-        name: 'Troubleshooting & Triage',
-        level: 9,
-      },
-      {
-        name: 'Optimization',
-        level: 7,
-      },
-      {
-        name: 'Configuration',
-        level: 9,
-      },
+      {name: 'Datadog', level: 9},
+      {name: 'Grafana', level: 7},
+      {name: 'Splunk', level: 6},
+      {name: 'Zabbix', level: 6},
     ],
   },
   {
-    name: 'System Administration',
+    name: '🏢 Enterprise Platforms',
     skills: [
-      {
-        name: 'Network',
-        level: 8,
-      },
-      {
-        name: 'Systems Configuration',
-        level: 5,
-      },
-      {
-        name: 'Resiliency',
-        level: 4,
-      },
+      {name: 'Microsoft 365', level: 9},
+      {name: 'Zoom (Admin / Engineer)', level: 9},
+      {name: 'Active Directory & Entra', level: 8},
+      {name: 'Microsoft Exchange', level: 8},
+      {name: 'Cisco Networking', level: 7},
     ],
   },
   {
-    name: 'Customer Service',
+    name: '⚖️ e-Discovery',
     skills: [
-      {
-        name: 'Documentation',
-        level: 9,
-      },
-      {
-        name: 'Personable',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      {name: 'Relativity / RelativityOne', level: 9},
+      {name: 'BrainSpace', level: 8},
+      {name: 'Nuix', level: 7},
+      {name: 'Venio', level: 7},
+    ],
+  },
+  {
+    name: '🖥️ Systems & Storage',
+    skills: [
+      {name: 'Windows Server', level: 9},
+      {name: 'Linux (RHEL)', level: 7},
+      {name: 'Hyper-V', level: 8},
+      {name: 'SQL Server', level: 7},
+      {name: 'Dell EqualLogic / Compellent', level: 7},
+    ],
+  },
+  {
+    name: '🗣️ Languages',
+    skills: [
+      {name: 'English', level: 10},
+      {name: 'Romanian', level: 10},
+      {name: 'Spanish', level: 3},
     ],
   },
 ];

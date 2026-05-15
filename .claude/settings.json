@@ -16,7 +16,8 @@
       "Bash(npm install *)",
       "Bash(python3 -)",
       "Bash(sips -s format jpeg -s formatOptions 90 /tmp/resume-screenshot2.png --out \"/Users/bstef/Library/Mobile Documents/com~apple~CloudDocs/Github/react-resume-template/resume-screenshot.jpg\")",
-      "Bash(node_modules/.bin/eslint --fix src/data/data.tsx)"
+      "Bash(node_modules/.bin/eslint --fix src/data/data.tsx)",
+      "Bash(node_modules/.bin/eslint --fix src/data/data.tsx src/components/Sections/Resume/index.tsx)"
     ],
     "additionalDirectories": [
       "/tmp"
