@@ -15,7 +15,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+
 import {
   About,
   ContactSection,
@@ -24,7 +24,6 @@ import {
   HomepageMeta,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -33,7 +32,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Ben Stef',
-  description: "Example site built with Tim Baker's react resume template",
+  description: 'Ben Stef — Senior Infrastructure & Systems Engineer based in Little Falls, NJ.',
 };
 
 /**
@@ -46,7 +45,6 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -60,17 +58,17 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a Technology Evangelist & Systems Engineer with extensive Technical Support knowledge & experience. In other words…I am what some people may call a "Jack-of-all trades" technologist!
+        I am a Senior Infrastructure &amp; Systems Engineer with 20+ years of experience across enterprise environments, e-Discovery platforms, and cloud-based observability solutions.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me enjoyiing time exploring <strong className="text-stone-100">NYC</strong> and all that it offers including bagels and coffee,working on <strong className="text-stone-100">Tech Stuff</strong>, or traveling the {' '}
-        <strong className="text-stone-100">world</strong>  with my wife!
+        In my free time, you can catch me exploring <strong className="text-stone-100">NYC</strong> and all it has to offer — bagels, coffee, and everything in between — tinkering with{' '}
+        <strong className="text-stone-100">tech</strong>, or traveling the <strong className="text-stone-100">world</strong> with my wife!
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/resume/Ben%20Stef%20Resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -88,15 +86,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `With over 18 years of experience in Technical Support and Information Technology, I am passionate about leveraging my skills to solve complex technical issues and enhance user experiences. My expertise spans across troubleshooting, system administration, network management, and customer service, making me a versatile and reliable IT professional.
-`,
+  description: `Infrastructure and systems engineering professional with 20+ years of experience across enterprise environments, e-Discovery platforms, and cloud-based observability solutions. Proven ability to design, deploy, and support complex systems at scale while driving cross-functional collaboration, documentation standards, and customer satisfaction.`,
   aboutItems: [
-    {label: 'Location', text: 'New York, NY', Icon: MapIcon},
+    {label: 'Location', text: 'Little Falls, NJ', Icon: MapIcon},
     {label: 'Age', text: '41', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Romanian / American', Icon: FlagIcon},
     {label: 'Interests', text: 'Photography, Traveling, Exploring local spots', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Illinois at Chicago', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'JP Morgan', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'JP Morgan — Jersey City, NJ', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -181,156 +178,104 @@ export const education: TimelineItem[] = [
   {
     date: 'May 2007',
     location: 'University of Illinois at Chicago',
-    title: 'Bachelor of Science in Eletrical Engineering',
-    content: <p>Studied core subjects including Circuit Analysis, Control Systems, Electromagnetics, Digital Signal Processing, Power Systems, and Microelectronics</p>,
+    title: 'Bachelor of Science in Electrical Engineering',
+    content: <p>Minor in Economics. Studied core subjects including Circuit Analysis, Control Systems, Electromagnetics, Digital Signal Processing, Power Systems, and Microelectronics. First Place — UIC College of Engineering EXPO 2007, Category 9: User Interface and Education ("TypeMouse: Fully Functional Keyboard and Mouse in a Single-Handed Device").</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
     date: 'May 2024 - Present',
-    location: 'JP Morgan',
-    title: 'Senior Infrastrucutre Engineer',
+    location: 'JP Morgan — Jersey City, NJ',
+    title: 'Senior Infrastructure Engineer',
     content: (
       <p>
-Supporting the organization's Employee Platforms as an Infrastructure Engineer by maintaining the company's communication and collaboration systems such as Zoom, Adobe Connect, Cisco Call Manager, and other Enterprise Video & Voice platforms for all of JPMorgan employees (~300k).
-Assisting the Communication and Collaboration Product Managers and Platform Owners by making sure the platforms follow their respective timelines.
-Providing assistance and support for the SaaS applications by maintaining documentation, system patches.
-Providing guidance and feedback with the internal App Development team on system architecture and design input as well as user experience excellence.
+        Support the Employee Platforms division, maintaining collaboration and communication tools (Zoom, Microsoft Teams, and more) for ~350,000 JPMorgan employees globally.
+        Authored and maintained Terraform infrastructure-as-code to deploy services and infrastructure on AWS.
+        Partnered directly with Product Managers to translate business requirements into technical solutions, and provided architectural guidance to internal App Development teams.
+        Implemented Zoom AI Companion, Zoom Events, and Exchange Calendar integration to improve employee experience.
       </p>
     ),
   },
   {
     date: 'January 2023 - April 2024',
-    location: 'Datadog',
+    location: 'Datadog, Inc. — New York, NY',
     title: 'Senior Technical Solutions Engineer',
     content: (
       <p>
-Provided Datadog customer’s technical support for implementing the Datadog solution into their environments. Extensive suport with the Datadog Agent and the many (600+) integrations that Datadog platform supports.
-Provided expertise knowledge on Microsoft Windows platform and how customers can integrate Datadog monitoring using that Operating System.
-Created escalations for the software engineering team to review and related issues or bugs.
-Updated documentation internal and external for clarity and knowledge share.
-Led office hours for other solutions engineers to provide them guidance and assistance with their customer issues.
+        Served as senior escalation point, collaborating with engineering teams to reproduce and resolve complex customer-reported issues across 600+ Datadog integrations.
+        Specialized in the Agent Integrations team across infrastructure, cloud, web, metrics, and monitoring domains.
+        Built internal sandbox environments on AWS, Azure, and GCP; authored knowledge base articles focused on Windows platform integrations (Active Directory, Windows Events, Deployments).
+        Led daily team office hours sessions with Tech Solutions peers and L1 engineers.
       </p>
     ),
   },
   {
-    date: 'January 2021 - December 2022',
-    location: 'Consilio',
-    title: 'Application Support Engineer',
+    date: 'August 2018 - December 2022',
+    location: 'Consilio LLC / Inventus LLC — New York, NY',
+    title: 'Systems Engineer — e-Discovery / Application Support Engineer',
     content: (
       <p>
-Provided Application Support to numerous internal and client facing applications.Supported companies eDiscovery platforms such as Relativity, Reltivity one, Venio 
-Maintained application documentation and how to guides for end users and external users. Performed routine maintenance and application updates on maintenance windows and planned outages
-Systems infrastructure for these applications included Windows Server, RedHat Linux, Webserver technologies likes IIS,Apache Tomcat. Collaborated with the Application support team members (roughly 2 dozen engineers)
-Engaged company technology departments such as Database Administration, Network Administration, Systems Administration, and Helpdesk to provided cross collaboration and support. Became subject matter expert for a few applications like Venio, Recenseo and Relativity and RelativityOne
+        Served as primary escalation point for application issues including latency, performance bottlenecks, and hang-ups in Relativity, Relativity One, Venio, and LAW.
+        Managed and administered the company-wide Zoom environment; assisted the InfoSec team with SOC 2 audit tasks including user access reviews and security remediation.
+        Performed regular application upgrades (BrainSpace, Venio, Relativity) across production and test environments.
+        Part of the global IT and infrastructure team focused on high-availability e-Discovery systems. Company subsequently merged with Legility LLC.
       </p>
     ),
   },
   {
-    date: 'January 2020 - December 2021',
-    location: 'Legility',
-    title: 'Application Support Specialist',
+    date: 'November 2013 - July 2018',
+    location: 'George Jon & Associates, Inc. — Chicago, IL',
+    title: 'Technical Advisor & Systems Engineer / System Analyst 3',
     content: (
       <p>
-Supported other IT departments environments including servers, networking, virtualization platforms (VMWare & Hyper-V) storage and helpdesk team
-Maintained Company wide SaaS applications such as Microsoft Office 365, Zoom, SpamTitan, Intune, IBM Maas360, and others.
-Worked with SaaS vendors to provide company wide support for SaaS applications.
-Became a point of escalation and subject matter expert (SME) for these applications by troubleshooting issues like performance latency, application bottlenecks and
-Assisted Security Team with Audits for SOC2 and IS9001 compliance with Security questions and security evidence.
+        Served as primary engineer for multiple client environments, managing all infrastructure, hardware, and licensing documentation.
+        Provided SME expertise on e-Discovery infrastructure to clients across legal and financial sectors.
+        Led incident response for production outages; coordinated with vendors (Microsoft, Dell, VMware) for escalations.
+        Notable engagements: Relativity SQL performance tuning & database migrations; year-long on-site FX Trading Platform support (IBM Netezza) at a major NYC investment bank; 6-month European deployment leading infrastructure for a large-scale Relativity rollout.
       </p>
     ),
   },
   {
-    date: 'August 2018 - December 2019',
-    location: 'Inventus',
-    title: 'Systems Engineer',
+    date: 'March 2009 - October 2013',
+    location: 'Quest Software / Dell Software — Buffalo Grove, IL',
+    title: 'QA Analyst / Software QA Associate 2',
     content: (
       <p>
-Member of the Global IT Infrastructure Team. Supported the local NYC office with IT task such as desktop Management, Network administration, Physical Security and Helpdesk.
-Supported multiple company environments local and abroad including Managed Service Environments. Performed routine maintenance checks and system patches on systems.
-Also worked on supporting the company's eDiscovery platforms and systems. Provided support to DevOps team for optimizing internal applications and systems
-Assisted Security team with questionnairesMember of the Global IT Infrastructure Team. Supported the local NYC office with IT task such as desktop Management, Network administration, 
-Physical Security and Helpdesk. Supported multiple company environments local and abroad including Managed Service Environments Performed routine maintenance checks and system patches on systems. 
-Also worked on supporting the company's eDiscovery platforms and systems. 
-Provided support to DevOps team for optimizing internal applications and systems Assisted Security team with questionnaires
+        Built and maintained VMware environments with multiple ESX/ESXi hosts, vCenters, and VM templates across iSCSI, Fiber, and SAS configurations.
+        Wrote and reviewed product documentation, test cases, and acceptance test cases prior to each release.
+        Conducted competitor analysis and performance benchmarking; analyzed and documented software defects with detailed reproduction steps.
+        Gained specialized expertise in VSS backup solutions, testing functionality with vRanger Pro and Veeam.
       </p>
     ),
   },
   {
-    date: 'November 2013 - August 2018',
-    location: 'George Jon & Associates',
-    title: 'Information Technology Support Analyst & Systems Engineer',
+    date: 'May 2007 - December 2008',
+    location: 'Novarra — Itasca, IL',
+    title: 'QA Engineer & Deployment Engineer',
     content: (
       <p>
-Worked in a highly dynamic fast paced environment as a Systems analyst and Helpdesk technician concentrating on Clustered SQL Servers and e-discovery using kCura's Relativity platform.
-I maintain Relativity from importing, archiving and troubleshooting Relativity issues and setting up new instances of databases and environments.
+        Finalized software requirements and test plans based on customer specifications; traveled on-site to assess environments and validate deployments.
+        Deployed operator-grade software into wireless carriers' networks across global clients in Hong Kong, Italy, Lithuania, and Turkey.
+        Installed and configured proprietary software on blade servers (Tomcat) for performance and load testing on Linux.
       </p>
     ),
   },
   {
-    date: 'September 2012 - October 2013',
-    location: 'George Jon & Associates',
-    title: 'IT Support Analyst & Systems Engineer',
+    date: 'January 2003 - February 2006',
+    location: 'UIC College of Pharmacy — Chicago, IL',
+    title: 'Computer Specialist',
     content: (
       <p>
-Quality Assurance Engineer for Data Protection products including vRanger.
-Wrote and executed quality assurance test plans.
-Provided customer support team escalation support for any software related issues.
-Led QA sprints and scrums
-Gave input to optimize QA workflows
-Worked under tight deadlines and followed company SDLC guidelines 
-      </p>
-    ),
-  },
-  {
-    date: 'March 2009 - September 2012',
-    location: 'Quest Software',
-    title: 'Quality Assurance Engineer',
-    content: (
-      <p>
-Part of a small integrated team that gets our solution deployed to customer by testing handsets and getting end product to user.
-Under Deployment: wrote test plans and documentation for released products, go on-site to test and work with customer to install and deploy Novarra’s software into the carriers network and have it deployed to end user.
-Under QA: Performed load run tests on server product conducted quality assurance (QA) tests of end user product J2ME and BREW platforms and diagnosed and reported visual and system problems on cellular phone devices. Made sure that product was approved to be released to customer(s). Maintained Linux servers and test lab.
-      </p>
-    ),
-  },
-  {
-    date: 'May 2005 - December 2008',
-    location: 'Novarra',
-    title: 'Quality Assurance Deployment Engineer',
-    content: (
-      <p>
-As part Vizioncore Inc. offers a full range of strategic software solutions that allow you to oversee and enhance the performance of virtualized environments. Vizioncore products are simple to use and cost effective, yet offer sophisticated functionality to address the challenges of P2V/V2V conversions, disaster recovery, storage optimization, process automation and provisioning, and performance monitoring and chargeback.
-Was responsible for the quality assurance in the Data Protection group. Worked especially on the quality of vRanger Pro product as well as functionality with other server grade products like Exchange and SQL Active Directory.
+        Provided helpdesk support for pharmacy faculty and students, troubleshooting hardware, network, and software issues.
+        Maintained user accounts, installed network software, and repaired/installed PCs.
+        Documented detailed resolution steps for recurring issues to build a departmental knowledge base.
       </p>
     ),
   },
 ];
 
-/**
- * Testimonial section
- */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
-  ],
-};
+
 
 /**
  * Contact section
@@ -342,13 +287,13 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'bobby@journeyjedi.net',
-      href: 'mailto:bobby@journeyjedi.net',
+      text: 'benjaminstef@gmail.com',
+      href: 'mailto:benjaminstef@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'New York, NY, USA',
-      href: 'https://www.google.com/maps/@40.7473613,-73.9830134,12.5z?entry=ttu',
+      text: 'Little Falls, NJ, USA',
+      href: 'https://www.google.com/maps/place/Little+Falls,+NJ',
     },
     {
       type: ContactType.Instagram,
