@@ -20,6 +20,7 @@ const Resume: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
+        <div id={SectionId.Skills}>
         <ResumeSection title="Skills">
           <p className="pb-8">A toolkit built over 20+ years across enterprise IT, e-Discovery, and cloud infrastructure.</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -28,6 +29,7 @@ const Resume: FC = memo(() => {
             ))}
           </div>
         </ResumeSection>
+        </div>
       </div>
     </Section>
   );
