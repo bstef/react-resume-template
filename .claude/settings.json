@@ -20,7 +20,8 @@
       "Bash(node_modules/.bin/eslint --fix src/data/data.tsx src/components/Sections/Resume/index.tsx)"
     ],
     "additionalDirectories": [
-      "/tmp"
+      "/tmp",
+      "/Users/bstef/Library/Mobile Documents/com~apple~CloudDocs/Github/bensteforg-resume"
     ]
   }
 }
